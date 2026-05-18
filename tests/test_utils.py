@@ -2,7 +2,7 @@ from decimal import Decimal
 
 import pytest
 
-from defuse import (
+from intents import (
     TokenResponse,
     bps_to_pct,
     find_token,

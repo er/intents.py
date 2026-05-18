@@ -1,6 +1,6 @@
 # Utilities
 
 ```{eval-rst}
-.. automodule:: defuse.utils
+.. automodule:: intents.utils
    :members:
 ```

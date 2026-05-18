@@ -61,18 +61,18 @@ def from_atomic(amount: int | str, decimals: int) -> Decimal:
 
 
 def token_to_atomic(amount: int | float | str | Decimal, token: TokenResponse) -> str:
-    """Convert a human-readable amount to atomic units using a :class:`~defuse.models.TokenResponse`.
+    """Convert a human-readable amount to atomic units using a :class:`~intents.models.TokenResponse`.
 
     Convenience wrapper around :func:`to_atomic` that reads ``decimals`` directly
     from the token object.
 
     Args:
         amount: Human-readable amount, e.g. ``0.1``.
-        token: Token metadata returned by :meth:`~defuse.client.IntentsClient.get_tokens`.
+        token: Token metadata returned by :meth:`~intents.client.IntentsClient.get_tokens`.
 
     Returns:
         Atomic amount string ready to pass as ``amount`` in a
-        :class:`~defuse.models.QuoteRequest`.
+        :class:`~intents.models.QuoteRequest`.
 
     Examples:
         >>> tokens = await client.get_tokens()
@@ -84,11 +84,11 @@ def token_to_atomic(amount: int | float | str | Decimal, token: TokenResponse) -
 
 
 def token_from_atomic(amount: int | str, token: TokenResponse) -> Decimal:
-    """Convert an atomic amount to a human-readable :class:`~decimal.Decimal` using a :class:`~defuse.models.TokenResponse`.
+    """Convert an atomic amount to a human-readable :class:`~decimal.Decimal` using a :class:`~intents.models.TokenResponse`.
 
     Args:
         amount: Atomic amount string as returned by the API.
-        token: Token metadata returned by :meth:`~defuse.client.IntentsClient.get_tokens`.
+        token: Token metadata returned by :meth:`~intents.client.IntentsClient.get_tokens`.
 
     Returns:
         Human-readable :class:`~decimal.Decimal`.
@@ -140,12 +140,12 @@ def find_token(
     """Look up a token by blockchain and symbol from a token list.
 
     Args:
-        tokens: Token list returned by :meth:`~defuse.client.IntentsClient.get_tokens`.
+        tokens: Token list returned by :meth:`~intents.client.IntentsClient.get_tokens`.
         blockchain: The chain to search on, e.g. ``"eth"``, ``"arb"``, ``"sol"``.
         symbol: Token symbol, e.g. ``"ETH"``, ``"USDC"``. Case-insensitive.
 
     Returns:
-        The matching :class:`~defuse.models.TokenResponse`.
+        The matching :class:`~intents.models.TokenResponse`.
 
     Raises:
         LookupError: If no token matches the given blockchain and symbol.

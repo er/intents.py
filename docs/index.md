@@ -1,4 +1,4 @@
-# defuse-py
+# intents-py
 
 Async Python wrapper for the NEAR Intents 1Click Swap API.
 

@@ -1,6 +1,6 @@
 # Enums
 
 ```{eval-rst}
-.. automodule:: defuse.enums
+.. automodule:: intents.enums
    :members:
 ```

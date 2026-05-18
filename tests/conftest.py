@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import pytest
 
-from defuse import IntentsClient
+from intents import IntentsClient
 
 BASE_URL = "https://1click.chaindefuser.com"
 

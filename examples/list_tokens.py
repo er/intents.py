@@ -2,7 +2,7 @@
 
 import asyncio
 
-from defuse import IntentsClient
+from intents import IntentsClient
 
 
 async def main() -> None:

@@ -2,10 +2,10 @@ from __future__ import annotations
 
 import importlib.metadata
 
-project = "defuse-py"
+project = "intents-py"
 author = "er"
 copyright = "2026, er"
-release = importlib.metadata.version("defuse-py")
+release = importlib.metadata.version("intents-py")
 version = ".".join(release.split(".")[:2])
 
 extensions = [
@@ -37,7 +37,7 @@ suppress_warnings = [
 
 html_theme = "furo"
 html_static_path = ["_static"]
-html_title = f"defuse-py {release}"
+html_title = f"intents-py {release}"
 
 autodoc_default_options = {
     "members": True,

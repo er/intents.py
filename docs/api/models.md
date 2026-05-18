@@ -1,6 +1,6 @@
 # Models
 
 ```{eval-rst}
-.. automodule:: defuse.models
+.. automodule:: intents.models
    :members:
 ```

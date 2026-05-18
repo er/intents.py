@@ -1,6 +1,6 @@
 # Examples
 
-Runnable scripts from the [`examples/`](https://github.com/er/defuse.py/tree/main/examples) directory in the repo.
+Runnable scripts from the [`examples/`](https://github.com/er/intents.py/tree/main/examples) directory in the repo.
 
 ## List tokens
 

@@ -8,7 +8,7 @@ detect the deposit itself.
 import asyncio
 import os
 
-from defuse import IntentsClient, SubmitDepositRequest
+from intents import IntentsClient, SubmitDepositRequest
 
 
 DEPOSIT_ADDRESS = "0xYourDepositAddressHere"

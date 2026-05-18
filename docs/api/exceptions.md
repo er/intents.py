@@ -1,6 +1,6 @@
 # Exceptions
 
 ```{eval-rst}
-.. automodule:: defuse.exceptions
+.. automodule:: intents.exceptions
    :members:
 ```

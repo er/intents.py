@@ -1,6 +1,6 @@
 # Client
 
 ```{eval-rst}
-.. automodule:: defuse.client
+.. automodule:: intents.client
    :members:
 ```

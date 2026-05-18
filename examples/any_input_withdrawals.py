@@ -3,7 +3,7 @@
 import asyncio
 import os
 
-from defuse import IntentsClient
+from intents import IntentsClient
 
 DEPOSIT_ADDRESS = "0xYourDepositAddressHere"
 

@@ -6,7 +6,7 @@ import httpx
 import pytest
 import respx
 
-from defuse import (
+from intents import (
     DepositType,
     IntentsAPIError,
     IntentsAuthError,

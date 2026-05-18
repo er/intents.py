@@ -1,17 +1,17 @@
-# defuse.py
+# intents.py
 
-[![PyPI](https://img.shields.io/pypi/v/defuse-py.svg)](https://pypi.org/project/defuse-py/)
-[![Python](https://img.shields.io/pypi/pyversions/defuse-py.svg)](https://pypi.org/project/defuse-py/)
-[![Docs](https://readthedocs.org/projects/defuse-py/badge/?version=latest)](https://defuse-py.readthedocs.io/en/latest/)
-[![License](https://img.shields.io/pypi/l/defuse-py.svg)](LICENSE)
+[![PyPI](https://img.shields.io/pypi/v/intents-py.svg)](https://pypi.org/project/intents-py/)
+[![Python](https://img.shields.io/pypi/pyversions/intents-py.svg)](https://pypi.org/project/intents-py/)
+[![Docs](https://readthedocs.org/projects/intents-py/badge/?version=latest)](https://intents-py.readthedocs.io/en/latest/)
+[![License](https://img.shields.io/pypi/l/intents-py.svg)](LICENSE)
 
 An async Python wrapper for the [NEAR Intents 1Click Swap API](https://docs.near-intents.org/integration/distribution-channels/1click-api/about-1click-api).
 
-- **Docs:** https://defuse-py.readthedocs.io
-- **PyPI:** https://pypi.org/project/defuse-py/
+- **Docs:** https://intents-py.readthedocs.io
+- **PyPI:** https://pypi.org/project/intents-py/
 
 ```
-pip install defuse-py
+pip install intents-py
 ```
 
 ## Requirements
@@ -24,7 +24,7 @@ pip install defuse-py
 
 ```python
 import asyncio
-from defuse import IntentsClient, find_token
+from intents import IntentsClient, find_token
 
 async def main():
     async with IntentsClient() as client:
@@ -40,7 +40,7 @@ asyncio.run(main())
 ```python
 import asyncio
 from datetime import datetime, timedelta, timezone
-from defuse import (
+from intents import (
     IntentsClient,
     QuoteRequest,
     SwapType,
@@ -100,7 +100,7 @@ client = IntentsClient(jwt_token="your-jwt-token")
 
 ## API reference
 
-Full API reference is on [Read the Docs](https://defuse-py.readthedocs.io/en/latest/).
+Full API reference is on [Read the Docs](https://intents-py.readthedocs.io/en/latest/).
 
 ### `IntentsClient`
 

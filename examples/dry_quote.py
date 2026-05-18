@@ -7,7 +7,7 @@ No funds are moved — dry=True means no deposit address is generated.
 import asyncio
 from datetime import datetime, timedelta, timezone
 
-from defuse import (
+from intents import (
     DepositType,
     IntentsClient,
     QuoteRequest,

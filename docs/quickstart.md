@@ -3,14 +3,14 @@
 ## Install
 
 ```bash
-pip install defuse-py
+pip install intents-py
 ```
 
 ## Usage
 
 ```python
 import asyncio
-from defuse import IntentsClient
+from intents import IntentsClient
 
 async def main():
     async with IntentsClient() as client:

@@ -12,7 +12,7 @@ import asyncio
 import os
 from datetime import datetime, timedelta, timezone
 
-from defuse import (
+from intents import (
     DepositType,
     IntentsClient,
     QuoteRequest,
