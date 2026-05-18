@@ -2,7 +2,7 @@
 
 [![PyPI](https://img.shields.io/pypi/v/intents-py.svg)](https://pypi.org/project/intents-py/)
 [![Python](https://img.shields.io/pypi/pyversions/intents-py.svg)](https://pypi.org/project/intents-py/)
-[![Docs](https://readthedocs.org/projects/intents-py/badge/?version=latest)](https://intentspy.readthedocs.io/en/latest/)
+[![Docs](https://readthedocs.org/projects/intentspy/badge/?version=latest)](https://intentspy.readthedocs.io/en/latest/)
 [![License](https://img.shields.io/pypi/l/intents-py.svg)](LICENSE)
 
 An async Python wrapper for the [NEAR Intents 1Click Swap API](https://docs.near-intents.org/integration/distribution-channels/1click-api/about-1click-api).
@@ -100,7 +100,7 @@ client = IntentsClient(jwt_token="your-jwt-token")
 
 ## API reference
 
-Full API reference is on [Read the Docs](https://intents-py.readthedocs.io/en/latest/).
+Full API reference is on [Read the Docs](https://intentspy.readthedocs.io/en/latest/).
 
 ### `IntentsClient`
 
